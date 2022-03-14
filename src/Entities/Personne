@@ -1,0 +1,38 @@
+abstract class Personne{
+    protected double numcinpersonne;
+    protected String nompersonne;
+    protected String prenompersonne;
+
+    public Personne() {
+    }
+
+    public Personne(double numcinpersonne, String nompersonne, String prenompersonne) {
+        this.numcinpersonne = numcinpersonne;
+        this.nompersonne = nompersonne;
+        this.prenompersonne = prenompersonne;
+    }
+
+    public double getNumcinpersonne() {
+        return numcinpersonne;
+    }
+
+    public void setNumcinpersonne(double numcinpersonne) {
+        this.numcinpersonne = numcinpersonne;
+    }
+
+    public String getNompersonne() {
+        return nompersonne;
+    }
+
+    public void setNompersonne(String nompersonne) {
+        this.nompersonne = nompersonne;
+    }
+
+    public String getPrenompersonne() {
+        return prenompersonne;
+    }
+
+    public void setPrenompersonne(String prenompersonne) {
+        this.prenompersonne = prenompersonne;
+    }
+}
