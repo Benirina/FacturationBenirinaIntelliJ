@@ -1,0 +1,19 @@
+public class Buyer extends Personne {
+    private String typebuyer;
+
+    public Buyer() {
+    }
+
+    public Buyer(double numcinpersonne, String nompersonne, String prenompersonne,String typebuyer){
+        super(numcinpersonne,nompersonne,prenompersonne);
+        this.typebuyer = typebuyer;
+    }
+
+    public String getTypebuyer() {
+        return typebuyer;
+    }
+
+    public void setTypebuyer(String typebuyer) {
+        this.typebuyer = typebuyer;
+    }
+}
