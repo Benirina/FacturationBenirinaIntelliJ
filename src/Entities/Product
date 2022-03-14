@@ -1,0 +1,71 @@
+class Product{
+    //reference product assigned by the selle
+    private int skuproduct;
+    //reference product assigned by the Organisation European standardization
+    private String eanproduct;
+    //reference product assigned by the manufacturer
+    private String npmproduct;
+    private String nameproduct;
+    private int priceproduct;
+    private String imagepathproduct;
+
+    public Product() {
+    }
+
+    public Product(int skuproduct, String eanproduct, String npmproduct, String nameproduct, int priceproduct, String imagepathproduct) {
+        this.skuproduct = skuproduct;
+        this.eanproduct = eanproduct;
+        this.npmproduct = npmproduct;
+        this.nameproduct = nameproduct;
+        this.priceproduct = priceproduct;
+        this.imagepathproduct = imagepathproduct;
+    }
+
+    public int getSkuproduct() {
+        return skuproduct;
+    }
+
+    public void setSkuproduct(int skuproduct) {
+        this.skuproduct = skuproduct;
+    }
+
+    public String getEanproduct() {
+        return eanproduct;
+    }
+
+    public void setEanproduct(String eanproduct) {
+        this.eanproduct = eanproduct;
+    }
+
+    public String getNpmproduct() {
+        return npmproduct;
+    }
+
+    public void setNpmproduct(String npmproduct) {
+        this.npmproduct = npmproduct;
+    }
+
+    public String getNameproduct() {
+        return nameproduct;
+    }
+
+    public void setNameproduct(String nameproduct) {
+        this.nameproduct = nameproduct;
+    }
+
+    public int getPriceproduct() {
+        return priceproduct;
+    }
+
+    public void setPriceproduct(int priceproduct) {
+        this.priceproduct = priceproduct;
+    }
+
+    public String getImagepathproduct() {
+        return imagepathproduct;
+    }
+
+    public void setImagepathproduct(String imagepathproduct) {
+        this.imagepathproduct = imagepathproduct;
+    }
+}
